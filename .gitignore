@@ -1,8 +1,11 @@
-HELP.md
+# Default ignored files
+/workspace.xml
+rebel.xml
+rebel-remote.xml
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+.DS_Store
 
 ### STS ###
 .apt_generated
@@ -11,7 +14,6 @@ target/
 .project
 .settings
 .springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -20,14 +22,8 @@ target/
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+nbproject/private/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+nbbuild/
+dist/
+nbdist/
