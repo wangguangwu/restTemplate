@@ -25,7 +25,7 @@ import java.util.Map;
 /**
  * @author wangguangwu
  */
-public class RestTemplateTest {
+public class TestRestTemplate {
 
     RestTemplate restTemplate;
 
